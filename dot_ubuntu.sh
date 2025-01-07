@@ -36,8 +36,8 @@ git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 
 # github profile
-git config --global user.email "lsjg9909@naver.colm"
-git config --global user.name "girinman"
+# git config --global user.email "lsjg9909@naver.com"
+# git config --global user.name "girinman"
 
 # For save hugginface hub credential
 git config --global credential.helper store
@@ -49,4 +49,4 @@ git config --global core.editor "code --wait"
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # Download anaconda script
-wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh

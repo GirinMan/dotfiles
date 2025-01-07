@@ -113,7 +113,7 @@ export PYTHONIOENCODING=UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Personal NAS
-export NAS_URL=""
+export NAS_URL="http://localhost:40001"
 alias nas='aws --endpoint-url $NAS_URL --region ap-northeast-2 s3'
 
 export PATH="/home/${USER}/.local/bin:$PATH"
